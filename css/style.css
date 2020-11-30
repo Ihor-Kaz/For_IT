@@ -90,6 +90,12 @@ body {
   width: auto;
 }
 
+.tech_skils {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-gap: 5px 5px;
+}
+
 .tech-skills-item {
   font-size: 14px;
   font-weight: 400;
@@ -116,7 +122,15 @@ body {
   margin-bottom: 15px;
 }
 
+.name_prof {
+  font-size: 25px;
+  font-weight: 700;
+  /* line-height: 89px; */
+  margin-bottom: 15px;
+}
+
 .discription {
+  width: 650px;
   font-size: 14px;
   font-weight: 400;
   color: #595959;
@@ -163,6 +177,10 @@ body {
 .projects-container {
   margin-bottom: 20px;
   margin-top: 15px;
+}
+
+.projects-container .tech-skills-item {
+  color: #595959;
 }
 
 .profession-title {
